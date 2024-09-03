@@ -5,10 +5,14 @@ using namespace std;
 
 int main(){
     system("cls");
-    string username;
-    cout << "Enter your username: " << username << endl;
-    cin >> username;
-    cout << "Hello, " << username << "Welcome to Github!" << endl;
+    string name;
+    cout << "What's your name?" << endl;
+    cin >> name;
+    cout << "Hello, " << name << "! How old are you?" << endl;
+    int age;
+    cin >> age;
+    cout << "You are " << age << " years old." << endl;
+
 
     return 0;
 }
