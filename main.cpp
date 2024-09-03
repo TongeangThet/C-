@@ -5,7 +5,6 @@ using namespace std;
 
 int main(){
     system("cls");
-    cout << "Hello Github!" << endl;
     string username;
     cout << "Enter your username: " << username << endl;
     cin >> username;
